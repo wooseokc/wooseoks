@@ -1,0 +1,151 @@
+.carousel {
+  display: flex;
+  position: relative;
+  top: 100px;
+}
+
+.item {
+  
+  position: absolute;
+}
+
+img {
+  pointer-events: none;
+}
+
+.info-box {
+  pointer-events: none;
+}
+
+.prev {
+  top: 100px;
+  left: 150px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+}
+
+.next {
+  top: 100px;
+  left :900px; 
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+
+}
+
+.current {
+  width: 400px;
+  height: 400px;
+  left: 425px;
+  border: 1px solid;
+}
+
+.Pprev {
+  top : 150px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+}
+
+.Nnext{
+  top : 150px;
+  width: 100px;
+  height: 100px;
+  left: 1150px;
+  border: 1px solid;
+}
+
+.current > img {
+  position: absolute;
+  width: 150px;
+  top: 15%;
+  right: 31%;
+}
+
+.current > .info-box {
+  width: 80%;
+  height: 20%;
+  position: absolute;
+  bottom: 18%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.current .coin-name {
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+.current .coin-price {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  display: flex;
+}
+
+.current .price {
+  margin-right: 20px;
+}
+
+.prev > img {
+  position: absolute;
+  width: 100px;
+
+  top : 10%;
+  left: 23%;
+}
+
+.next > img {
+  position: absolute;
+  width: 100px;
+
+  top : 10%;
+  left: 23%;
+}
+
+.prev .coin-price {
+  visibility: hidden;
+}
+.next .coin-price {
+  visibility: hidden;
+}
+
+.prev .coin-name {
+  position: absolute;
+  bottom: 15%;
+  left: 32%;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.next .coin-name {
+  position: absolute;
+  bottom: 15%;
+  left: 32%;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.Pprev .info-box {
+  visibility: hidden;
+}
+.Pprev img{
+  width: 50px;
+  position: absolute;
+  top: 25%;
+  left: 26%;
+}
+.Nnext .info-box {
+  visibility: hidden;
+}
+.Nnext img{
+  width: 50px;
+  position: absolute;
+  top: 25%;
+  left: 26%;
+}
+
