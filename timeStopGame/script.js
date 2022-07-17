@@ -89,7 +89,7 @@ function challengePage () {
     //타이머 on
     const startTime = new Date();
 
-    // 20초 지나면 실격
+    // 10초 지나면 실격
     let interval = setInterval(()=> {
       const stopTime = new Date();
       let startSecond = startTime.getSeconds();
